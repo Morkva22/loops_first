@@ -10,8 +10,8 @@ void main()
     cout<<"vvedu Y yak stepin"<<endl;
     cin >> y;
     if (y<64) {
-    int result = pow(x,y);
-    cout << "x^y = " << result << endl;
+        int result = pow(x,y);
+        cout << "x^y = " << result << endl;
     }
     else
     {
