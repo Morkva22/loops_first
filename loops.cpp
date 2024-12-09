@@ -3,89 +3,11 @@ using namespace std;
 
 int main()
 {
-    int k;
-    cout << "Enter variant from 1 to 9: ";
-    cin >> k;
-    if (k==1)
+    int a;
+    cout<<"\nvvedu chuslo: ";
+    cin>>a;
+    for (int i = 0; i <=a; i++)
     {
-        for (int i = 1; i <= 9; i++)
-        {
-            cout << k << " x " << i << " = " << k * i << endl;
-        }
-        
+        cout<<i<<endl;
     }
-    else if (k==2)
-    {
-        {
-            for (int i = 1; i <= 9; i++)
-            {
-                cout << k << " x " << i << " = " << k * i << endl;
-            }
-        
-        }
-    }
-    else if (k==3)
-    {
-        for (int i = 1; i <= 9; i++)
-        {
-            cout << k << " x " << i << " = " << k * i << endl;
-        }
-        
-    }
-    else if (k==4)
-    {
-        {
-            for (int i = 1; i <= 9; i++)
-            {
-                cout << k << " x " << i << " = " << k * i << endl;
-            }
-        
-        }
-    }
-    else if (k==5)
-    {
-        for (int i = 1; i <= 9; i++)
-        {
-            cout << k << " x " << i << " = " << k * i << endl;
-        }
-        
-    }
-    else if (k==6)
-    {
-        {
-            for (int i = 1; i <= 9; i++)
-            {
-                cout << k << " x " << i << " = " << k * i << endl;
-            }
-        
-        }
-    }
-    else if (k==7)
-    {
-        for (int i = 1; i <= 9; i++)
-        {
-            cout << k << " x " << i << " = " << k * i << endl;
-        }
-        
-    }
-    else if (k==8)
-    {
-        {
-            for (int i = 1; i <= 9; i++)
-            {
-                cout << k << " x " << i << " = " << k * i << endl;
-            }
-        
-        }
-    }
-    else if (k==9)
-    {
-        {
-            for (int i = 1; i <= 9; i++)
-            {
-                cout << k << " x " << i << " = " << k * i << endl;
-            }
-        }
-    }
-    
 }
