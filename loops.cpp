@@ -1,4 +1,4 @@
-#include <iostream> Користувач вводить дві межі діапазону. Порахувати суму всіх чисел діапазону.
+#include <iostream> 
 using namespace std;
 
 int main() {
